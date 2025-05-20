@@ -439,7 +439,7 @@
     display: flex;
     margin-bottom: clamp(7.875rem, 11.071vw + 2.339rem, 15.625rem);
     // justify-content: space-between;
-    gap: clamp(0.938rem, 37.195vw - 17.66rem, 20rem);
+    gap: clamp(0.875rem, 5.893vw - 2.071rem, 5rem)  ;
     @media (max-width: 921px) {
       padding-inline: clamp(3.063rem, 1.429vw + 2.348rem, 4.063rem);
 
@@ -447,8 +447,8 @@
       border-top: none;
     }
     .hero-img {
-      width: clamp(18.875rem, 28.929vw + 4.411rem, 39.125rem);
-      height: clamp(22.188rem, 33.75vw + 5.313rem, 45.813rem);
+      width: clamp(18.75rem, 52.5vw - 7.5rem, 55.5rem)  ;
+      height: clamp(22.188rem, 47.321vw - 1.473rem, 55.313rem);
       object-fit: cover;
       @media (max-width: 921px) {
         width: 100%;
