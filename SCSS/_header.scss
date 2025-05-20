@@ -1,0 +1,13 @@
+.header{
+  display: flex;
+  justify-content: center;
+  padding-top: clamp(1.75rem, 1.429vw + 1.036rem, 2.75rem);
+  padding-bottom: clamp(1.625rem, 4.732vw - 0.741rem, 4.938rem);
+  background: #000000;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 12%, rgba(16, 16, 16, 0.63) 63%, rgba(0, 0, 0, 0) 100%);
+  a{
+    img{
+      width: clamp(5.063rem, 7.143vw + 1.491rem, 10.063rem);
+    }
+  }
+}

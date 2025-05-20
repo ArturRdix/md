@@ -1,0 +1,56 @@
+//HTML
+// <div id="burgerMenu" class="burger-menu">
+//  <span class="middle-line"></span>
+// </div>
+
+.burger-menu {
+  display: none;
+  position: relative;
+  width: 27px;
+  height: 20px;
+  cursor: pointer;
+  &.active::after {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  &.active::before {
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+  }
+
+  &.active .middle-line {
+    left: 100%;
+    opacity: 0;
+  }
+  &::after,
+  &::before {
+    content: "";
+    transform-origin: center;
+  }
+  &::after {
+    top: 0;
+  }
+  &::before {
+    bottom: 0;
+  }
+  & .middle-line {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &::before,
+  &::after,
+  .middle-line {
+    background-color: white;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    transition: 0.3s;
+  }
+}
+@media (max-width: 800px) {
+  .burger-menu {
+    display: block;
+  }
+}

@@ -1,0 +1,37 @@
+.an-t-up {
+    overflow: hidden;
+    display: inline-block;
+    & > * {
+      position: relative;
+      top: -500px;
+      animation: slideUp 0.8s ease-out forwards;
+    }
+  
+    @keyframes slideUp {
+      0% {
+        top: -500px;
+      }
+      100% {
+        top: 0px;
+      }
+    }
+  }
+  .an-t-dw {
+    overflow: hidden;
+    display: inline-block;
+    & > * {
+      position: relative;
+      top: 500px;
+      animation: slideDown 0.8s ease-out forwards;
+    }
+  
+    @keyframes slideDown {
+      0% {
+        top: 500px;
+      }
+      100% {
+        top: 0px;
+      }
+    }
+  }
+    
