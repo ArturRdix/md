@@ -40,7 +40,7 @@
     }
   }
 }
-.visuals-question{
+.visuals-question {
   margin-bottom: 80px;
 }
 .start-section {
@@ -95,15 +95,15 @@
         flex-direction: column;
         gap: 5px;
         position: relative;
-        img{
+        img {
           position: absolute;
-    inset: 0;
-    width: 200%;
-    height: 300%;
-    right: 50%;
-    top: -50%;
-    transform: translate(-25%, -10%);
-    z-index: 0;
+          inset: 0;
+          width: 200%;
+          height: 300%;
+          right: 50%;
+          top: -50%;
+          transform: translate(-25%, -10%);
+          z-index: 0;
         }
       }
     }
@@ -124,7 +124,7 @@
     @media (max-width: 921px) {
       display: none;
     }
-    &-item {
+    .achievements-item{
       text-align: center;
 
       h2 {
@@ -134,7 +134,7 @@
         letter-spacing: -6px;
       }
       h3 {
-        font-size: 20px;    
+        font-size: 20px;
       }
     }
   }
@@ -201,7 +201,8 @@
       letter-spacing: -6px;
     }
     h3 {
-      font-size: clamp(1rem, .357vw + .821rem, 1.25rem);font-weight: 300;
+      font-size: clamp(1rem, 0.357vw + 0.821rem, 1.25rem);
+      font-weight: 300;
     }
   }
 }
@@ -426,7 +427,7 @@
     display: flex;
     line-height: 0.9;
     gap: clamp(0.938rem, 4.018vw - 1.071rem, 3.75rem);
-    margin-bottom: 100px;
+    margin-bottom: clamp(2.5rem, 5.357vw - 0.179rem, 6.25rem);
     span.span-wrapp {
       display: flex;
       gap: 25px;
@@ -453,7 +454,7 @@
     display: flex;
     margin-bottom: clamp(7.875rem, 11.071vw + 2.339rem, 15.625rem);
     // justify-content: space-between;
-    gap: clamp(0.875rem, 5.893vw - 2.071rem, 5rem)  ;
+    gap: clamp(0.875rem, 5.893vw - 2.071rem, 5rem);
     @media (max-width: 921px) {
       padding-inline: clamp(3.063rem, 1.429vw + 2.348rem, 4.063rem);
 
@@ -461,7 +462,7 @@
       border-top: none;
     }
     .hero-img {
-      width: clamp(18.75rem, 52.5vw - 7.5rem, 55.5rem)  ;
+      width: clamp(18.75rem, 52.5vw - 7.5rem, 55.5rem);
       height: clamp(22.188rem, 47.321vw - 1.473rem, 55.313rem);
       object-fit: cover;
       @media (max-width: 921px) {
