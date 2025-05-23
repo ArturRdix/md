@@ -40,7 +40,9 @@
     }
   }
 }
-
+.visuals-question{
+  margin-bottom: 80px;
+}
 .start-section {
   background-image: url(../assets/img/start_bg.webp);
   background-position: center;
@@ -59,7 +61,7 @@
       font-size: clamp(1.875rem, 7.143vw - 1.696rem, 6.875rem);
     }
     h3 {
-      font-size: clamp(0.875rem, 1.429vw + 0.161rem, 1.875rem);
+      font-size: clamp(1.075rem, 1.429vw + 0.161rem, 1.875rem);
       font-weight: 600;
       @media (max-width: 921px) {
         font-weight: 400;
