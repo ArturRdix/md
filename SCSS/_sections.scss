@@ -775,6 +775,7 @@
 .faq {
   padding-inline: 50px;
   margin-bottom: clamp(4.688rem, 20.089vw - 5.357rem, 18.75rem);
+  overflow-x: hidden;
   h2 {
     font-size: clamp(2.5rem, 5vw + 0rem, 6rem);
     text-transform: uppercase;
